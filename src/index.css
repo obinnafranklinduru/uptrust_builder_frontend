@@ -1,41 +1,373 @@
-body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: navy;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.signup input {
-  margin-left: 50px;
-  margin-bottom: 30px;
-  padding: 20px 150px;
+body {
+  background-color: rgb(9, 9, 34);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.navbar {
+  box-shadow: 1px 1px 8px rgb(43, 32, 93);
+  padding-top: 20px;
+}
+.navbar .list ul {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 30px;
+  color: white;
+}
+.navbar .list li {
+  text-indent: 10px;
+}
+.navbar .list li h1 {
+  margin-right: 150px;
+  margin-left: 15px;
+}
+.navbar .list li button {
+  margin-left: 20px;
+  margin-right: 50px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  color: white;
+  background: linear-gradient(to left, blue, rgb(137, 15, 105));
+  border: none;
+}
+.navbar .list ul :hover {
+  cursor: pointer;
+  /* color: rgb(137, 15, 105); */
+  text-decoration: underline;
+}
+.Spark .name {
+  position: absolute;
+  top: 0;
+}
+.Spark svg {
+  width: 20px;
+  height: 20px;
+  color: white;
+  position: absolute;
+  margin-left: 36%;
+  top: 47.3%;
+}
+.Spark button {
+  text-align: center;
+  background: linear-gradient(to left, blue, rgb(137, 15, 105));
+  border-color: rgb(199, 199, 226);
+  padding: 5px 60px;
+  border-radius: 17px;
+  color: white;
+  outline: none;
+  margin-left: 35%;
+  margin-top: 200px;
+  margin-bottom: 5px;
+}
+.Spark h1 {
+  color: white;
+  text-align: center;
+}
+.Spark h1 span {
+  background: linear-gradient(to left, blue, rgb(137, 15, 105));
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline-block;
+}
+.Spark p {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.Spark span button {
+  margin-left: 45%;
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  color: white;
+  background: linear-gradient(to left, blue, rgb(137, 15, 105));
+  border: none;
+  text-align: center;
+}
+.hero {
+  background-color: rgb(8, 8, 27);
+  margin-top: 90px;
+  margin-left: 190px;
+  margin-right: 190px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 8px rgb(43, 32, 93);
+  margin-bottom: 50px;
+  padding-left: 50px;
+}
+.hero h3 {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.hero .svg {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.hero .svg button {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(to right, rgb(75, 57, 60), rgb(70, 70, 113));
   border-radius: 8px;
   border: none;
+  margin-right: 5px;
+}
+.hero .svg svg {
+  color: white;
+}
+.hero .svg p {
+  color: white;
+  margin-right: 40px;
+}
+
+.keyfeatures h3 {
+  text-align: center;
+  color: rgb(137, 15, 105);
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+.keyfeatures h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.keyfeatures .detailers {
+  color: white;
+  justify-content: space-around;
+  padding: 100px;
+  margin-left: 170px;
+  background-color: rgb(8, 8, 27);
+  border-radius: 12px;
+  box-shadow: 1px 1px 8px rgb(43, 32, 93);
+}
+.keyfeatures .detailers section {
+  margin-right: 5px;
+  padding-bottom: 60px;
+}
+.keyfeatures {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.keyfeatures .detailers h1 {
+  margin-bottom: 40px;
+  color: purple;
+}
+
+.keyfeatures .detailers section {
+  margin-bottom: 30px;
+}
+.keyframes .detailers p {
+  /* margin-left:150px; */
+  position: relative;
+}
+.keyfeatures .detailers strong {
+  position: absolute;
+  /* bottom:0px; */
+}
+.ourstory {
+  background-color: rgb(8, 8, 27);
+  margin: 80px;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 8px rgb(43, 32, 93);
+}
+.ourstory .section h3 {
+  text-align: center;
+  padding-top: 60px;
+  color: purple;
+  position: relative;
+}
+
+.ourstory .section h1 {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.ourstory .section p {
+  color: white;
+  text-align: center;
+}
+.ourstory .section button {
+  margin-left: 45%;
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  color: white;
+  background: linear-gradient(to left, blue, rgb(137, 15, 105));
+  border: none;
+  text-align: center;
+}
+/* .meetourteam {
+ 
+  
+}
+.meetourteam .section h3 {
+  color: purple;
+  text-align: center;
+}
+.meetourteam .section h2 {
+  text-align: center;
+  color: white;
+  padding-bottom: 40px;
+}
+.meetourteam .img {
+ 
+}
+.meetourteam .img img {
+  width: 400px;
+  height: 400px;
+  margin: 40px;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: -50px;
+}
+.meetourteam .img p {
+  color: white;
+  text-align: center;
+}
+.meetourteam .img strong {
+  color: white;
+  text-align: center;
+} */
+
+.meetourteam .img p {
+  color: white;
+}
+
+.meetourteam .img strong {
+  color: white;
+}
+
+.meetourteam .section h3 {
+  color: purple;
+  text-align: center;
+}
+.meetourteam .section h2 {
+  text-align: center;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.meetourteam .img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-template-rows: repeat(2, 1fr); /* Two rows */
+  gap: 20px; /* Adjust the gap between images */
+}
+
+.meetourteam .img img {
+  width: 400px; /* Make the image fill the container */
+  height: 400px;
+  border-radius: 30px;
+  padding: 30px;
+  margin: 80px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.meetourteam .img img:hover {
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+.meetourteam .newsletter h2 {
+  color: white;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  font-size: x-large;
+}
+.meetourteam .newsletter p {
+  color: white;
+  margin-left: 100px;
+}
+.meetourteam .newsletter input {
+  margin-bottom: 40px;
+  padding: 10px 60px;
+  border-radius: 8px;
+  border: none;
+  margin-left: 60%;
+  margin-right: 10px;
   outline: none;
 }
-.title h1 {
-  margin-left: 80px;
-  color: rgb(186, 14, 158);
-  font-size: xx-large;
-}
-.title h1 span {
-  float: right;
-  margin-right: 60px;
-  margin-top: 90px;
-  color: rgb(186, 14, 158);
-  font-size: xx-large;
-}
-.signup button {
-  background-color: skyblue;
+.meetourteam .newsletter button {
+  padding: 10px 30px;
+  background-color: blue;
   color: white;
   border: none;
   outline: none;
-  padding: 10px 30px;
   border-radius: 8px;
-  cursor: pointer;
-  margin-left: 50px;
-  margin-bottom: 30px;
-  margin-top: 30px;
 }
-.signup button:hover {
-  background-color: rgb(186, 14, 158);
-  color: skyblue;
+.footer ul {
+  display: flex;
+  list-style-type: none;
+  color: purple;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.footer li span h3 {
+  margin-right: 650px;
+  margin-left: 100px;
+  color: purple;
+}
+.footer li {
+  text-indent: 60px;
+}
+.right {
+  color: white;
+  box-shadow: 1px 1px 8px rgb(43, 32, 93);
+  text-align: center;
+  padding: 40px;
+}
+.signup form{
+  margin-top: 2%;
+  margin-bottom: 40px;
+  margin-left: 30%;
+  /* color: purple; */
+  position:relative;
+}
+
+.signup form TextField{
+  border:purple;
+}
+
+.signup button {
+  margin-left: 20%;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: linear-gradient(to left, blue, rgb(137, 15, 105));
+  color: white;
+}
+.signup h1 {
+  margin-top:3px;
+  margin-left:20%;
+  color: white;
+  /* text-align:center; */
+}
+.signup .svg svg {
+  width: 500px;
+  height: 500px;
+  margin-left: 30%;
+  position: absolute;
+  opacity:0.5;
+  color:rgb(43, 32, 93);
+}
+
+.signup p {
+  background: linear-gradient(to left, blue, rgb(137, 15, 105));
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline-block;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  margin-right:35%;
+  text-align:center;
 }
