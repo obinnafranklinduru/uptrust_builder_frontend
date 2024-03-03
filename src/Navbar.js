@@ -17,10 +17,12 @@ const Navbar = () => {
               <motion.button
                 whileHover={{
                   scale: 1.1,
-                  textShadow: "0px 0px 8px purple",
-                  boxShadow: "0px 0px 8px purple",
+                  textShadow: "0px 0px 8px blue",
+                  boxShadow: "0px 0px 8px blue",
                 }}
-              >Sign Up</motion.button>
+              >
+                Sign Up
+              </motion.button>
             </Link>
           </li>
         </ul>
