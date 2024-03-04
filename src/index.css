@@ -454,4 +454,55 @@ c
   color: white;
   margin-right: 10px;
 }
+.keyfeatures h3 {
+  text-align: center;
+  color: rgb(137, 15, 105);
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+.keyfeatures h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.keyfeatures .detailers {
+  color: white;
+  /* justify-content: space-around; */
+  padding: 50px;
+  margin-left: 10px;
+  margin-top:50px;
+  background-color: rgb(8, 8, 27);
+  border-radius: 12px;
+  box-shadow: 1px 1px 8px rgb(43, 32, 93);
+}
+.keyfeatures .detailers section {
+  margin-right: 5px;
+  padding-bottom: 20px;
+}
+.keyfeatures {
+  display:block;
+  gap:20px;
+  margin-bottom:20px;
+margin-right:20px;
+margin-left:20px;
+  /* display: grid; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* gap: 40px; */
+}
+.keyfeatures .detailers h1 {
+  margin-bottom: 40px;
+  color: purple;
+}
+
+.keyfeatures .detailers section {
+  margin-bottom: 30px;
+}
+.keyframes .detailers p {
+  /* margin-left:150px; */
+  /* position: relative; */
+}
+.keyfeatures .detailers strong {
+  position: absolute;
+  /* bottom:0px; */
+}
 }
