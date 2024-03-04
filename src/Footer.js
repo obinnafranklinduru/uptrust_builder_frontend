@@ -13,6 +13,7 @@ const Footer = () => {
       </ul>
       <div className="right">
         <p>©2024 Uptrust. All rights Reserved</p>
+        
       </div>
     </div>
   );

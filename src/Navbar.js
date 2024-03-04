@@ -6,12 +6,20 @@ const Navbar = () => {
     <div className="navbar">
       <div className="list">
         <ul>
-          <li>
-            <h1>Uptrust</h1>
-          </li>
-          <li>Resources</li>
-          <li>About Us</li>
-          <li>FAQ</li>
+          <span>
+            <li>
+              <h1>Uptrust</h1>
+            </li>
+          </span>
+          <section>
+            <li>Resources</li>
+          </section>
+          <section>
+            <li>About Us</li>
+          </section>
+          <section>
+            <li>FAQ</li>
+          </section>
           <li>
             <Link to="/SignUp">
               <motion.button
